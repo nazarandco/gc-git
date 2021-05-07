@@ -1,17 +1,18 @@
-li{
-    margin-bottom: 16px;
+[alt="Pollution"]{
+    border: 5px dashed red;
 }
-ol > li span{
-    background-color: green;
-    color: white;
+[src$=".jpg"]{
+    margin-left: 50px;
 }
-ul > li span{
-    background-color: orange;
-    color: white;
+[data-description~="even"]{
+    background-color: grey;
 }
-#special + li > span{
-    border: 3px solid red;
+[data-description*="even"]{
+    font-size: 24px;
 }
-#special ~ li{
-    margin-left: 16px;
+[href^="https://"]{
+    color: green;
+}
+span[lang|=en]{
+    font-size: 28px;
 }
