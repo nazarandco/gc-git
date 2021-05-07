@@ -1,21 +1,27 @@
-[href][target="_blank"]{
+a:link{
+    color: white;
+    background-color: black;
+}
+a:visited{
     color: green;
+    background-color: orange;
 }
-ol, ul{
-    background-color: yellow;
+button:active, a:active{
+    border: 3px solid red;
 }
-header, footer{
-    border: 3px dashed blue;
-}
-h1, h2, h3, h4{
-    margin-left: 20px;
-}
-article.new{
+a:hover{
     font-size: 24px;
 }
-li.new{
-    background-color: red;
+.some-button:hover:enabled{
+    color: white;
+    background-color: grey;
 }
-.new.posted-today{
-    background-color: pink;
+.some-button:disabled{
+    border: 2px dashed grey;
+}
+input:focus{
+    background-color: orange;
+}
+.confirm-checkbox:checked{
+    margin-left: 20px;
 }
