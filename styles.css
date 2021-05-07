@@ -3,16 +3,16 @@
   margin-left: 16px;
   color: orange;
 }
-.theory::first-line {
+.theory::first-line{
   font-size: 24px;
 }
 .theory::selection {
   background-color: red;
   color: white;
 }
-p a[href]::before {
+a::before {
   content: '> ';
 }
-p a[href]::after {
+a::after {
   content: ' <';
 }
