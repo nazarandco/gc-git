@@ -1,18 +1,18 @@
-.theory::first-letter{
-    font-size: 36px;
-    margin-left: 16px;
-    color: orange;
+.theory::first-letter {
+  font-size: 36px;
+  margin-left: 16px;
+  color: orange;
 }
-.theory::first-line{
-    font-size: 24px;
+.theory::first-line {
+  font-size: 24px;
 }
-.theory::selection{
-    background-color: red;
-    color: white;
+.theory::selection {
+  background-color: red;
+  color: white;
 }
-[href]::before{
-    content:"> ";
+a::before {
+  content: '> ';
 }
-[href]::after{
-    content:" <";
+a::after {
+  content: ' <';
 }
