@@ -10,9 +10,9 @@
     background-color: red;
     color: white;
 }
-a::before{
+[href]::before{
     content:"> ";
 }
-a::after{
+[href]::after{
     content:" <";
 }
