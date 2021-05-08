@@ -3,10 +3,15 @@
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
+  /* margin-top: 16px; */
+  z-index: 1;
 }
-.navigation {
-  height: 40px;
-  position: fixed;
+.nav-list{
+    position: fixed;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .nav-item {
   display: inline-block;
