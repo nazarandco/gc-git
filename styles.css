@@ -1,71 +1,69 @@
 .header {
-  position: fixed;
-  background-color: darkturquoise;
-  height: 40px;
-  width: 100%;
-  z-index: 1;
-}
-.navigation {
-  position: fixed;
-  height: 40px;
-  width: 100%;
-}
-.nav-list {
-  position: fixed;
-  height: 40px;
-  line-height: 5px;
-}
-.nav-item {
-  display: inline-block;
-  text-align: left;
-  height: 40px;
-  margin-left: 16px;
-  color: white;
-}
-.content {
-  background-color: beige;
-  height: 5000px;
-}
-.head {
-  position: relative;
-  top: calc(50vh - 100px);
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  height: 200px;
-  background-color: aquamarine;
-}
-.ear_left {
-  position: absolute;
-  top: -60px;
-  left: -40px;
-  width: 40px;
-  height: 60px;
-  background-color: brown;
-}
-.ear_right {
-  position: absolute;
-  top: -60px;
-  right: -40px;
-  width: 40px;
-  height: 60px;
-  background-color: brown;
-}
-.eye_right {
-  position: absolute;
-  top: 80px;
-  right: 40px;
-  width: 30px;
-  height: 30px;
-  background-color: grey;
-  border-radius: 50%;
-}
-.eye_left {
-  position: absolute;
-  top: 80px;
-  left: 40px;
-  width: 30px;
-  height: 30px;
-  background-color: grey;
-  border-radius: 50%;
-}
+    position: fixed;
+    background-color: darkturquoise;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+  }
+  .nav-list {
+    position: fixed;
+    height: 40px;
+    line-height: 250%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .nav-item {
+    display: inline-block;
+    text-align: left;
+    height: 40px;
+    margin-left: 16px;
+    color: white;
+  }
+  .content {
+    background-color: beige;
+    height: 5000px;
+  }
+  .head {
+    position: relative;
+    top: calc(50vh - 100px);
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+  }
+  .ear_left {
+    position: absolute;
+    top: -60px;
+    left: -40px;
+    width: 40px;
+    height: 60px;
+    background-color: brown;
+  }
+  .ear_right {
+    position: absolute;
+    top: -60px;
+    right: -40px;
+    width: 40px;
+    height: 60px;
+    background-color: brown;
+  }
+  .eye_right {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+  .eye_left {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+  
