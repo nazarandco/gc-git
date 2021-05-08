@@ -9,17 +9,17 @@ body {
 }
 .css.first {
   background-color: blue;
-  padding: 50px;
+  padding: 50px 50px 50px 50px;
 }
 .css.second {
   background-color: yellow;
-  padding: 50px;
+  padding: 50px 50px 50px 50px;
 }
 .css.third {
   background-color: green;
-  padding: 50px;
+  padding: 50px 50px 50px 50px;
 }
 .css.fourth {
   background-color: pink;
-  padding: 50px;
+  padding: 50px 50px 50px 50px;
 }
