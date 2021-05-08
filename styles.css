@@ -1,12 +1,26 @@
+.figure{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+}
 .rectangle{
-    background-color: bisque;
-    width: 420px;
-    height: 140px;
-    padding: 20px 20px 20px 20px;
-    border-top: 10px solid firebrick;
-    border-right: 20px solid chartreuse;
-    border-bottom: 10px dashed burlywood;
-    border-left: 20px dashed aqua;
-    margin: 50px 100px 50px 100px;
-    font-size: 24px;
+    background-color: forestgreen;
+    border-radius: 16px;
+}
+.oval{
+    background-color: darkmagenta;
+    border-radius: 50%;
+}
+.circle{
+    background-color: aquamarine;
+    height: 100px;
+    border-radius: 50%;
+}
+.triangle{
+    background-color: white;
+    height: 0px;
+    width: 0px;
+    border: 50px solid transparent;
+    border-top-color: brown;
 }
