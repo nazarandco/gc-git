@@ -1,25 +1,65 @@
-header {
-  height: 50px;
-  background-color: yellow;
+.header {
+  position: relative;
+  background-color: darkturquoise;
+  height: 40px;
+  margin-top: -16px;
 }
-footer {
-  height: 50px;
-  background-color: green;
+.navigation {
+  height: 40px;
+  position: relative;
 }
-main {
-  height: 500px;
-  background-color: pink;
-  float: left;
-  width: 80%;
+.nav-list {
+  height: 40px;
 }
-aside {
-  height: 500px;
-  background-color: grey;
-  float: left;
-  width: 20%;
+.nav-item {
+  display: inline-block;
+  margin-left: 16px;
+  line-height: 40px;
+  color: white;
 }
-footer {
-  background-color: green;
-  clear: left;
+.content {
+  background-color: beige;
+  height: 5000px;
 }
-
+.head {
+  position: absolute;
+  top: calc(80% / 2);
+  left: calc(85% / 2);
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+}
+.ear_left {
+  position:absolute;
+  top: -60px;
+  left: -40px;
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+}
+.ear_right {
+    position:absolute;
+    top: -60px;
+    right: -40px;
+    width: 40px;
+    height: 60px;
+    background-color: brown;
+  }
+  .eye_right{
+    position:absolute;
+    top: 80px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+  }
+  .eye_left{
+    position:absolute;
+    top: 80px;
+    left: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+  }
