@@ -1,25 +1,23 @@
-.header {
+header {
   position: fixed;
   background-color: darkturquoise;
   height: 40px;
   width: 100%;
   z-index: 1;
 }
-.nav-list {
+nav {
+  z-index: 1;
   position: fixed;
   height: 40px;
-  line-height: 250%;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  line-height: normal;
 }
 .nav-item {
   display: inline-block;
-  text-align: left;
   height: 40px;
   margin-left: 16px;
   color: white;
 }
-.content {
+main {
   background-color: beige;
   height: 5000px;
 }
