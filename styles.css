@@ -14,8 +14,9 @@
 }
 .nav-item {
   display: inline-block;
+  text-align: center;
   height: 40px;
-  margin-left: 14px;
+  margin-left: 16px;
   color: white;
 }
 .content {
