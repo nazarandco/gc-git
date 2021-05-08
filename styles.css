@@ -8,10 +8,9 @@
 .nav-list {
   position: fixed;
   height: 40px;
-  line-height: 200%;
+  line-height: 250%;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 16px;
 }
 .nav-item {
   display: inline-block;
