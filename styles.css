@@ -13,8 +13,8 @@
     margin-bottom: 0px;
   }
   .nav-item {
+    float: left;
     display: inline-block;
-    text-align: left;
     height: 40px;
     margin-left: 16px;
     color: white;
