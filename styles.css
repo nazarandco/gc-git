@@ -10,12 +10,12 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
+  min-width: 300px;
 }
 .article {
-  width: 200px;
+  flex-basis: 200px;
   flex-grow: 1;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  min-width: 300px;
 }
