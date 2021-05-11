@@ -1,10 +1,20 @@
-header {
-    display: flex;
-    justify-content: center;
+body {
+  display: flex;
+  flex-direction: column;
 }
-.article{
-    margin: 8px;
-    padding: 16px;
-    background-color: bisque;
-    min-width: 300px;
+header {
+  display: flex;
+  justify-content: center;
+}
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
+}
+.article {
+  flex-grow: 1;
+  width: 300px;
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
 }
