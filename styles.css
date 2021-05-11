@@ -26,8 +26,9 @@
   display: flex;
   flex-grow: 1;
   background-color: pink;
-  align-items: center;
-  justify-content: center;
+}
+.dashboard > h2 {
+    margin: auto;
 }
 .sidebar {
   display: flex;
