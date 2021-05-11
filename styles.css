@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 header {
   display: flex;
@@ -9,11 +10,10 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  min-width: 300px;
 }
 .article {
+  width: min-content;
   flex-grow: 1;
-  width: 300px;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
