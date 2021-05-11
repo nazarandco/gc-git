@@ -19,7 +19,7 @@
   margin-left: 16px;
 }
 .content {
-  min-height: 89.5vh;
+  min-height: 89vh;
   display: flex;
 }
 .dashboard {
@@ -52,6 +52,7 @@
 }
 .footer {
   display: flex;
+    flex-grow: 1;
   height: 40px;
   background-color: green;
 }
