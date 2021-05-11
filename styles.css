@@ -2,7 +2,6 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 .header {
   display: flex;
@@ -20,7 +19,7 @@
   margin-left: 16px;
 }
 .content {
-  height: 100vh;
+  min-height: 89.5vh;
   display: flex;
 }
 .dashboard {
