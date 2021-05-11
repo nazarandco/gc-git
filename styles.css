@@ -19,16 +19,15 @@
   margin-left: 16px;
 }
 .content {
-  min-height: 89vh;
+  min-height: calc(100vh - 80px);
   display: flex;
 }
 .dashboard {
   display: flex;
   flex-grow: 1;
   background-color: pink;
-}
-.dashboard > h2 {
-  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 .sidebar {
   display: flex;
@@ -52,7 +51,7 @@
 }
 .footer {
   display: flex;
-    flex-grow: 1;
+  flex-grow: 1;
   height: 40px;
   background-color: green;
 }
