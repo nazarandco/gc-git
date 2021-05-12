@@ -1,5 +1,6 @@
 .gallery {
     display: flex;
+    justify-content: flex-start;
 }
 .image {
     height: 200px;
