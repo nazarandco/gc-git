@@ -1,15 +1,16 @@
 .list {
-    list-style-type: none;
+  list-style-type: none;
+  font-size: 1.5em;
 }
-.list > li {
-    font-size: 1.5em;
-}
+/* .list > li {
+  font-size: 1.5em;
+} */
 .first {
-    text-decoration: red overline;
+  text-decoration: red overline;
 }
 .second {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 .third {
-    text-decoration: green underline;
+  text-decoration: green underline;
 }
