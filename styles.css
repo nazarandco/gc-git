@@ -1,17 +1,10 @@
-* {
-  box-sizing: border-box;
+.icon {
+    margin: 100px;
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task2/sprites.png);
+    background-position-x: -200px;
+    height: 100px;
+    width: 100px;
 }
-.mountains {
-  height: 500px;
-  width: 300px;
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
-  background-position: center;
-  background-clip: border-box;
-  background-size: cover;
-  padding: 32px;
-  text-align: center;
-  font-size: 32px;
-  font-weight: 700;
-  color: white;
-  background: linear-gradient(white);
+.icon:hover {
+    background-position-y: -100px;
 }
