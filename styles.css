@@ -14,8 +14,8 @@
   line-height: 50px;
   width: 200px;
   height: 50px;
-  top: calc(50% - 25px);
-  left: calc(50% - 100px);
+  /* top: calc(50% - 25px);
+  left: calc(50% - 100px); */
   background-color: bisque;
   font-size: 12px;
   text-transform: uppercase;
