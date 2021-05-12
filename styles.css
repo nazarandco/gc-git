@@ -1,9 +1,12 @@
-div {
+*{
+    box-sizing: border-box;
+}
+.mountains {
     height: 500px;
     width: 300px;
     background: url(nature.jpeg);
     background-position: center;
-    /* background-clip: border-box; */
+    background-clip: border-box;
     background-size: cover;
     padding: 32px;
     text-align: center;
