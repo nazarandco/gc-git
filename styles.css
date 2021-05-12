@@ -1,9 +1,26 @@
-.container div:nth-child(1){
-    display: none;
+body {
+  box-sizing: border-box;
 }
-.container div:nth-child(2){
-    visibility: hidden;
+.articles {
+  display: flex;
 }
-.container div:nth-child(3){
+.articles > div {
+  height: 100px;
+  width: 150px;
+  margin: 16px;
+  background-color: beige;
+}
+.visible-text {
     visibility: visible;
+}
+.cropped {
+    overflow: hidden;
+}
+.both-scrolls {
+    overflow: scroll;
+    cursor: all-scroll;
+}
+.vertical-scroll {
+    overflow: auto;
+    cursor: all-scroll;
 }
