@@ -1,7 +1,27 @@
-div.rectangle {
-    background-color: blueviolet;
+.image-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.text.new::first-letter {
-    font-size: 24px;
-    color: green;
+.image-button {
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  margin: auto;
+  width: 200px;
+  height: 50px;
+  background-color: bisque;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  filter: opacity(0.5);
+}
+.image-button:hover {
+    filter: opacity(1);
+    cursor: pointer;
+}
+img {
+    min-width: 0px;
 }

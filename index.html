@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Специфичность</title>
+    <title>Images</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -10,33 +10,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css">
-    <style>
-      .rectangle {
-        background-color: aqua;
-        width: 100px;
-        height: 100px;
-      }
-
-      .text {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      .text::first-letter {
-        color: red;
-      }
-
-      .new {
-        color: grey;
-      }
-    </style>
   </head>
 
   <body>
-    <div class="rectangle"></div>
-    <p class="text new">
-      Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида
-      документа, написанного с использованием языка разметки.
-    </p>
+    <div class="image-container">
+      <img
+        class="image"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
+        alt="Forest"
+      />
+      <span class="image-button">Later I'll do something</span>
+    </div>
   </body>
 </html>
