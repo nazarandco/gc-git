@@ -1,0 +1,14 @@
+div {
+    height: 500px;
+    width: 300px;
+    background: url(nature.jpeg);
+    background-position: center;
+    /* background-clip: border-box; */
+    background-size: cover;
+    padding: 32px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(white);
+}
