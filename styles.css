@@ -1,28 +1,19 @@
-section {
-    margin: 32px;
-}
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-    word-spacing: 20px;
-    text-align: center;
+  font-size: 74px;
+  text-align: center;
+  width: 50vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+div {
+    height: 200px;
+    background-color: coral;
+    color: white;
     text-transform: uppercase;
+    text-align: center;
+    line-height: 200px;
 }
-p {
-    line-height: 28px;
-}
-.tech {
-    letter-spacing: 3px;
-    font-size: 24px;
-    opacity: 80%;
-    text-decoration: underline;
-}
-a {
-    text-decoration: none;
-}
-.trans {
-    color: grey;
-}
-
