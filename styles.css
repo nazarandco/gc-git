@@ -1,8 +1,28 @@
-img {
-    margin: 8px;
+html {
+    margin: 32px;
 }
-.gallery {
-    display: flex;
-    cursor: all-scroll;
-    overflow-y: auto;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
+h1 {
+    word-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    line-height: 28px;
+}
+.tech {
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 80%;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+.trans {
+    color: grey;
+}
+
