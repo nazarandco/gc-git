@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .image-container {
   position: relative;
   display: flex;
@@ -20,9 +23,9 @@
   filter: opacity(0.5);
 }
 .image-button:hover {
-    filter: opacity(1);
-    cursor: pointer;
+  filter: opacity(1);
+  cursor: pointer;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
