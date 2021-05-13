@@ -3,20 +3,11 @@
 } */
 form {
     margin: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: start;
 }
 div {
     margin-bottom: 8px;
 }
-.html {
-    padding-left: 1px;
-}
-.css {
-    padding-left: 1px;
-}
-.javascript {
-    padding-left: 1px;
+.languages {
+    display: inline;
+    text-align: left;
 }
