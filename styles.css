@@ -1,6 +1,24 @@
-div {
+.checkbox {
+    position: relative;
+    padding-left: 35px;
     margin: 16px;
+    font-size: 24px;
+    display: inline-block;
 }
-/* label[for="agree-t-a-c"] {
-    margin-left: -5px;
-} */
+input {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+.checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 25px;
+    height: 25px;
+    background-color: #d3d3d3;
+}
+.checkbox input:checked + .checkmark{
+    background-color: #006400;
+}
+
