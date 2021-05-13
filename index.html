@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Video</title>
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -13,8 +13,28 @@
   </head>
 
   <body>
-    <main>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/C8JyvzU0CXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
-    </main>
+    <form>
+      <div>
+        <input type="text" value="Emerson" name="lastName" />
+      </div>
+      <div>
+        <input type="number" value="17" name="age" />
+      </div>
+      <div>
+        <input id="agree-t-a-c" type="checkbox" name="agree" />
+        <label for="agree-t-a-c">Accept terms and conditions</label>
+      </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender"/>Male
+        <input type="radio" name="gender"/>Female
+        <input type="radio" name="gender"/>Secret
+      </div>
+      <div>
+          <input type="textarea" name="description" placeholder="Write description...">
+      </div>
+      <div>
+          <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
