@@ -1,24 +1,49 @@
-.checkbox {
-    position: relative;
-    padding-left: 35px;
-    margin: 16px;
-    font-size: 24px;
-    display: inline-block;
+* {
+  box-sizing: border-box;
 }
-input {
-    width: 0px;
-    height: 0px;
-    visibility: hidden;
+body {
+  background-color: bisque;
+  display: flex;
 }
-.checkmark {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 25px;
-    height: 25px;
-    background-color: #d3d3d3;
+.page {
+  margin: auto;
+  margin-top: calc(50vh - 150px);
 }
-.checkbox input:checked + .checkmark{
-    background-color: #006400;
+.login-form {
+  background-color: aqua;
+  font-size: 16px;
+  font-family: monospace;
+  width: 300px;
+  padding: 16px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
-
+.form-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+.form-control {
+  margin-bottom: 8px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 4px;
+}
+.form-input {
+  width: 100%;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 4px;
+  outline: none;
+}
+.form-input:invalid {
+  border: 3px solid #ff0000;
+}
+.submit-button {
+  width: 100%;
+  height: 32px;
+  background-color: #ff7f50;
+  margin-top: 16px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
