@@ -1,3 +1,6 @@
 div {
     margin: 16px;
 }
+label[for="agree-t-a-c"] {
+    padding-left: 2px;
+}
