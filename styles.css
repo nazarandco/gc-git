@@ -5,9 +5,6 @@ div {
   margin: 8px;
 }
 .languages {
-    display: flex;
-    justify-content:left;
-    align-items: center;
-    /* text-align: left;
-    vertical-align: middle; */
+    display: block;
+    /* align-items: center; */
 }
