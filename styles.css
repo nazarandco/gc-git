@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box;
+}
 div {
     margin: 16px;
 }
-label[for="agree-t-a-c"] {
-    padding-left: 2px;
+.accept {
+    text-align: left;
+    vertical-align: middle;
 }
