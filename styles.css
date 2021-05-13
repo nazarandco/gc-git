@@ -3,6 +3,10 @@
 }
 form {
     margin: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: start;
 }
 input {
     margin: 8px;
