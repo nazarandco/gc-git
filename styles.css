@@ -9,16 +9,7 @@ form {
     justify-content: start;
 }
 div {
-    margin: 8px;
-}
-.stories {
-    margin-left: 8px;
-}
-.framework {
-    margin-left: 8px;
-}
-.submit {
-    margin-left: 8px;
+    margin-bottom: 8px;
 }
 .html {
     padding-left: 1px;
