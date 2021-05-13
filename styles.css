@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 form {
     margin: 32px;
     display: flex;
@@ -20,3 +20,6 @@ input {
 .submit {
     margin-left: 8px;
 }
+/* .color {
+    box-sizing: content-box;
+} */
