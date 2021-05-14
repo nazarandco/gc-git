@@ -1,25 +1,36 @@
 * {
   box-sizing: border-box;
 }
-.batteries {
-  display: flex;
-  justify-content: space-around;
+.container {
+  margin: 32px;
 }
-span {
-  display: flex;
+.rect {
+  margin-bottom: 16px;
+  background-color: coral;
+  opacity: 0.5;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  transition-property: width, opacity;
+  transition-duration: 2s, 0.5s;
 }
-.full {
-  font-size: 16px;
+.rect:hover {
+  width: 100%;
+  opacity: 1;
 }
-.three-q {
-  font-size: 32px;
+.rect.linear {
+  transition-timing-function: linear;
 }
-.half {
-  font-size: 64px;
+.rect.ease {
+  transition-timing-function: ease;
 }
-.quarter {
-  font-size: 128px;
+.rect.ease-in {
+  transition-timing-function: ease-in;
 }
-.empty {
-  font-size: 256px;
+.rect.ease-out {
+  transition-timing-function: ease-out;
+}
+.rect.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
