@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Animation</title>
+    <title>Images</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -10,9 +10,38 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css">
+    <style>
+      @keyframes moving {
+        from {
+          left: calc(50vw - 48.01px);
+          opacity: 1;
+        }
+        to {
+          left: calc(50vw + 45px);
+          opacity: 1;
+        }
+      }
+
+      @keyframes blinking {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <div class="square"></div>
+    <div class="container">
+      <div class="spinner">
+        <span class="spinner-text">Loading...</span>
+        <div class="rect"></div>
+      </div>
+    </div>
   </body>
 </html>
