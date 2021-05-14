@@ -1,15 +1,35 @@
 * {
   box-sizing: border-box;
 }
+div {
+  overflow-x: auto;
+}
 table {
   width: 500px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   margin: 16px;
   border-collapse: collapse;
 }
-th, td {
+th,
+td {
   padding: 4px;
-  border: 1px solid black;
+  border: 1px solid #000000;
   text-align: right;
+  line-height: 40px;
 }
-
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+tbody tr:hover {
+  background-color: #aaa;
+  color: #ffffff;
+}
+thead {
+  background-color: #00ffff;
+}
+tfoot {
+  font-weight: 700;
+}
+caption {
+  margin-bottom: 8px;
+}
