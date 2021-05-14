@@ -1,47 +1,56 @@
 * {
   box-sizing: border-box;
 }
-body {
+.container {
   display: flex;
+  width: 100vw;
   height: 100vh;
 }
-.fancy-button {
+.spinner {
   margin: auto;
-  width: 150px;
-  height: 50px;
-  border-radius: 4px;
-  background: linear-gradient(45deg, yellow, red);
-  border: none;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
-  animation: jump 0.4s 0.5s ease-in-out, spin 0.5s ease-in-out, hide 1s 2s ease forwards;
+  animation: blinking 2s infinite;
+  transition-timing-function: linear;
 }
-@keyframes jump {
+.spinner-text {
+  font-family: monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 4px solid lightgrey;
+  border-top: 4px solid black;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  animation: loading 2s infinite;
+  transition-timing-function: linear;
+}
+@keyframes blinking {
   0% {
-    transform: translateY(0);
+    opacity: 0;
   }
   50% {
-    transform: translateY(-40px);
+    opacity: 1;
   }
   100% {
-    transform: translateY(0);
+    opacity: 0;
   }
 }
-@keyframes spin {
-  from {
+@keyframes loading {
+  0% {
     transform: rotate(0);
   }
-  to {
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
     transform: rotate(360deg);
-  }
-}
-@keyframes hide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(2000px);
   }
 }
