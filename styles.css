@@ -27,7 +27,7 @@
   border-top: 4px solid black;
   margin-bottom: 8px;
   border-radius: 50%;
-  animation: loading 2s infinite, blinking 2s infinite;
+  animation: loading 2s infinite;
   transition-timing-function: linear;
 }
 @keyframes blinking {
