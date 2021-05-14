@@ -1,34 +1,17 @@
 * {
   box-sizing: border-box;
 }
-body {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
+
+p {
+  margin: 0 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  display: inline-block;
+  border-radius: 4px;
 }
-@keyframes moving {
-  from {
-    top: -100px;
-  }
-  to {
-    top: calc(50vh - 50px);
-  }
-}
-.block {
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 100px;
-  width: 250px;
+.square {
+  width: 100px;
   height: 100px;
-  border-radius: 10px;
-  background-color: coral;
-  position: absolute;
-  animation: moving 2s;
-  transition-timing-function: ease;
-  animation-fill-mode:forwards;
+  background-color: tomato;
+  transform: translate(200px, 100px) rotate(45deg) scale(1.5, 1.5);
 }
