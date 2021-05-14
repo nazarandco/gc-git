@@ -4,7 +4,9 @@
 .batteries {
   display: flex;
   justify-content: space-around;
-  align-items:flex-start;
+}
+span {
+  display: flex;
 }
 .full {
   font-size: 16px;
