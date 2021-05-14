@@ -1,21 +1,39 @@
 * {
   box-sizing: border-box;
 }
-.row {
+body {
   display: flex;
-  justify-content: center;
 }
-.column {
+button {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+button:hover {
+  color: darkcyan;
+}
+#bird {
+  fill: white;
+}
+#bird:hover {
+  fill: green;
+}
+.kiwi:hover > #bird {
+  fill: green;
+}
+.kiwi {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  flex: 1;
+  justify-content: space-evenly;
 }
-.small-bird {
-  width: 64px;
-  height: 64px;
-}
-.large-bird {
-  width: 320px;
-  height: 320px;
-}
+
+
