@@ -13,107 +13,40 @@
   </head>
 
   <body>
-    <form>
-      <div>
-        <input type="HTML" value="HTML" name="primaryLanguage" disabled />
-      </div>
-      <div>
-        <input type="checkbox" name="agree" unchecked />
-      </div>
-      <div>
-        <input type="checkbox" name="like" checked readonly />
-      </div>
-      <div class="color">
-        <input type="color" name="favouriteColor" value="#ff7f50" />
-      </div>
-      <div>
-        <input type="date" name="birthDate" value="2021-01-02" />
-      </div>
-      <div>
-       <input 
-       type="datetime-local"
-       name="birthTime"
-       value="2024-10-04T13:02"
-       >
-      </div>
-      <div>
-        <input type="email" name="email" placeholder="example@domain.com" />
-      </div>
-      <div>
-        <input type="file" name="avatar" />
-      </div>
-      <div>
-        <input type="month" name="startLearning" value="2020-01" />
-      </div>
-      <div>
-        <input type="number" name="favouriteNumber" value="17" />
-      </div>
-      <div class="stories">
-        <textarea
-          name="story"
-          cols="30"
-          rows="5"
-          placeholder="A long time ago..."
-        ></textarea>
-      </div>
-      <div>
-        <input type="password" name="password" value="secret" />
-      </div>
-      <div>
-        <span class="languages">
-        <input 
-        id="html" 
-        type="radio" 
-        name="language" 
-        value="html"/>HTML
-        <input 
-        id="css" 
-        type="radio" 
-        name="language" 
-        value="css" 
-        checked/>CSS
-        <input
-          id="javascript"
-          type="radio"
-          name="language"
-          value="javascript"
-        />JavaScript
-        </span>
-      </div>
-      <div>
-        <input type="range" name="learningProgress" value="30"/>
-      </div>
-      <div class="framework">
-        <select name="framework">
-          <option value="react">React</option>
-          <option value="jquery" selected>jQuery</option>
-          <option value="bootstrap">Bootstrap</option>
-        </select>
-      </div>
-      <div>
-        <input
-          type="search"
-          name="search"
-          placeholder="Type first letters..."
-        />
-      </div>
-      <div>
-        <input type="time" name="lunchEnd" value="14:01" />
-      </div>
-      <div>
-        <input
-          type="url"
-          name="website"
-          placeholder="https://website.com"
-          required
-        />
-      </div>
-      <div>
-        <input type="week" name="birthWeek" value="2021-W51" />
-      </div>
-      <div class="submit">
-        <button type="submit">Save</button>
-      </div>
-    </form>
+    <table>
+      <caption>Shopping ist</caption>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Amount</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Milk</td>
+          <td>3</td>
+          <td>$2</td>
+          <td>$6</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>4</td>
+          <td>$1</td>
+          <td><$4/td>
+        </tr>
+        <tr>
+          <td>Meat</td>
+          <td>5</td>
+          <td>$10</td>
+          <td>$50</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td colspan="3">Total</td>
+        <td>$60</td>
+      </tfoot>
+    </table>
   </body>
 </html>

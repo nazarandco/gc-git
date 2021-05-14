@@ -1,10 +1,15 @@
-form {
-  margin: 32px;
+* {
+  box-sizing: border-box;
 }
-div {
-  margin: 8px;
+table {
+  width: 500px;
+  border: 1px solid black;
+  margin: 16px;
+  border-collapse: collapse;
 }
-.languages {
-    display: block;
-    /* align-items: center; */
+th, td {
+  padding: 4px;
+  border: 1px solid black;
+  text-align: right;
 }
+
