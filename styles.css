@@ -45,16 +45,19 @@
   0% {
     transform: rotate(-45deg);
   }
-  25% {
+  20% {
     transform: rotate(45deg);
   }
-  50% {
+  40% {
     transform: rotate(135deg);
   }
-  75% {
+  60% {
     transform: rotate(225deg);
   }
-  100% {
+  80% {
     transform: rotate(315deg);
+  }
+  100% {
+    transform: rotate(405deg);
   }
 }
