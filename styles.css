@@ -3,11 +3,16 @@
 }
 .container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
 }
 .spinner {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   animation: blinking 2s infinite;
   transition-timing-function: linear;
 }
