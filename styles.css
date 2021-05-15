@@ -9,6 +9,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   width: 100vw;
   height: 100vh;
 }
@@ -26,7 +27,7 @@ body {
 }
 .main {
   display: flex;
-  height: calc(100vh - 78.88px);
+  height: 100%;
 }
 .navigation {
   width: 20%;
@@ -59,17 +60,19 @@ body {
   list-style-type: none;
 }
 .nav-list-item {
+  display: block;
   background-color: #808080;
   line-height: 2em;
   margin-bottom: 0.5em;
-}
-.nav-list-link {
-  display: block;
-  outline: none;
-  text-decoration: none;
-  padding-left: 0.5em;
   color: white;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.nav-list-link {
+  outline: none;
+  text-decoration: none;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  color: white;
 }
