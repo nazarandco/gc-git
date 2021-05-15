@@ -68,11 +68,11 @@ body {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .nav-list-link {
   outline: none;
   text-decoration: none;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
   color: white;
 }
