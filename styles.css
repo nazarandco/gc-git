@@ -1,78 +1,18 @@
-* {
-  box-sizing: border-box;
-}
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #555;
-  font-size: 16px;
+  font-size: 18px;
 }
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100vw;
-  height: 100vh;
+.font-in-px {
+  font-size: 27px;
 }
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background: linear-gradient(60deg, red, orange);
+.font-in-em {
+  font-size: 1.5em;
 }
-.footer {
-  text-align: center;
-  background-color: #e5e5e5;
-  padding: 0.5em;
-}
-.main {
-  display: flex;
-  height: 100%;
-}
-.navigation {
-  width: 20%;
-  padding: 0.5em;
-}
-.section {
-  width: 60%;
-  padding: 0.5em;
-  font-size: 1.25em;
-}
-.units-list {
-  line-height: 1.75em;
-}
-.css-units {
-  color: #8b0000;
-  background-color: #e5e5e5;
-  font-size: 1.125em;
-  font-weight: 700;
-}
-.section__header {
+.font-in-vw {
   font-size: 5vw;
-  text-align: center;
 }
-.news {
-  width: 20%;
-  padding: 0.5em;
+.font-in-percents {
+  font-size: 150%;
 }
-.nav-list {
-  padding: 0;
-  list-style-type: none;
-}
-.nav-list-item {
-  display: block;
-  background-color: #808080;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  color: white;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-}
-.nav-list-link {
-  outline: none;
-  text-decoration: none;
-  color: white;
+.font-in-rem {
+  font-size: 1.5rem;
 }
