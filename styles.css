@@ -1,11 +1,10 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 main {
   display: flex;
 }
 picture {
-  display: flex;
   margin: auto;
 }
 img {
