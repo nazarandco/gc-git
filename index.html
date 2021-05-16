@@ -13,20 +13,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="page">
-      <section class="products">
-        <div class="nav">
-          <span class="text">Navigation</span>
-        </div>
-        <div class="pList">
-          <span class="text">Products List</span>
-        </div>
-      </section>
-      <section class="info">
-        <div class="news">
-          <span class="text">News</span>
-        </div>
-      </section>
+    <main>
+      <picture>
+        <source srcset="small.jpeg" media="(max-width: 400px)">
+        <source srcset="big.jpeg" media="(min-width: 400px)">
+        <img class="mainIm" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg" alt="Lake and trees">
+      </picture>
     </main>
   </body>
 </html>
