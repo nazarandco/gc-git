@@ -130,9 +130,9 @@ img {
     flex-basis: 20%;
   }
   .navigation {
-    flex-grow: 1;
+    flex-basis: 25%;
   }
   .section {
-    flex-grow: 1;
+    flex-basis: 75%;
   }
 }
