@@ -29,7 +29,7 @@
 }
 
 .submenu {
-    visibility: hidden;
+    display: none;
     margin: 0;
     padding: 0;
     background-color: #ff7f50;
@@ -47,6 +47,7 @@
 }
 
 .menu__item_active:hover > .submenu {
-    visibility: visible;
+    display: flex;
+    flex-direction: column;
     position: absolute;
 }
