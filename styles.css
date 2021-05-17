@@ -21,6 +21,9 @@ button {
   background-color: none;
   cursor: pointer;
 }
+.nav-list {
+  padding: 0.5em;
+}
 .nav-list-item {
   display: flex;
   flex-direction: column;
