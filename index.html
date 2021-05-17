@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Breakpoints</title>
+    <title>Adaptive menu</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -11,14 +11,34 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
   </head>
+
   <body>
-    <main>
-      <picture>
-        <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/example-399.jpg" media="(max-width: -400px)">
-        <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" media="(min-width: 401px)">
-        <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg" alt="Lonely tree in the field">
-      </picture>
+    <header class="header">
+      <button>
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
+    <main class="main">
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#">Responsive images</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#">Mediaqueries</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-link" href="#">Flexbox</a>
+          </li>
+        </ul>
+      </nav>
     </main>
   </body>
 </html>
