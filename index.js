@@ -1,17 +1,15 @@
-/**
- * @param {number} num
- * @return {number}
- */
-function factorial(num) {
-  // put your code here
-  let total = 1;
-  if (num >= 0 && num <= 100) {
-    for (let i = 0; i < num; i += 1) {
-      total = total * (num - i);
-    } 
-  } else {
-        console.log('undefined');
-    }
-  return total;
+function run() {
+  var a = 0;
+
+  if (a == 1) {
+    return c;
+  }
+
+  for (let i = 1; i < 10; i++) {
+    console.log(i);
+  }
+
+  return (d = a);
 }
-console.log(factorial(10));
+
+run();
