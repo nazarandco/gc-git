@@ -1,6 +1,6 @@
 export const clearList = () => {
-  const result = (document.querySelector('.categories').innerHTML = '  ');
-  return result;
+  const result = document.querySelector('.categories');
+  return result.innerHTML = '';
 };
 
 clearList();
