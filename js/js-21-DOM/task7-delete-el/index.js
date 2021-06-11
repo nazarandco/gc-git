@@ -3,4 +3,4 @@ export const clearList = () => {
   return result;
 };
 
-console.log(clearList());
+clearList();
