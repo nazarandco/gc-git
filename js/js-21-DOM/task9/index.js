@@ -8,7 +8,7 @@ export const finishList = () => {
 
   const listElem4 = document.createElement('li');
   listElem4.textContent = '4';
-  listElem4.before(listElem5);
+  listElem5.before(listElem4);
 
   const listElem6 = document.createElement('li');
   listElem6.textContent = '6';
