@@ -1,3 +1,3 @@
 export const clearList = () => {
-  return  (document.querySelector('.categories').innerHTML = '');
+  return (document.querySelector('.categories').innerHTML = '');
 };
