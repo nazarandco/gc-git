@@ -7,7 +7,7 @@ const tasks = [
 ];
 
 const renderListItems = listItems => {
-    const listElem = document.querySelector('.list'); // тут звернення обов'язково через крапку
+    const listElem = document.querySelector('.list'); // тут звернення обов'язково через крапку, назва класу
 
     const listItemsElem = listItems
     .sort((a, b) => a.done - b.done)
