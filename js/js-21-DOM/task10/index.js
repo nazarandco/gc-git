@@ -12,4 +12,3 @@ export const finishForm = () => {
   return logForm.prepend(login);
 };
 
-console.log(finishForm());
