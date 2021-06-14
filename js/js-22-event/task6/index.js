@@ -4,4 +4,4 @@ const clickBtn = () => {
   console.log('clicked');
 };
 
-btnElem.addEventListener('click', () => clickBtn(), { once: true });
+btnElem.addEventListener('click', clickBtn, { once: true });
