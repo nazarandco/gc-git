@@ -1,10 +1,8 @@
 // put your code here
 const btnSingElem = document.querySelector('.single-use-btn');
 
-btnSingElem.addEventListener(
-  'click',
-  () => {
-    console.log('clicked');
-  },
-  { once: true }
-);
+const btnFunc = () => {
+  console.log('clicked');
+};
+
+btnSingElem.addEventListener('click', btnFunc, { once: true });
