@@ -5,4 +5,12 @@ const btnFunc = () => {
   console.log('clicked');
 };
 
-btnSingElem.addEventListener('click', btnFunc, { once: true });
+let count = 0;
+
+btnSingElem.addEventListener('click', () => {
+  count += 1;
+  if (count > 1) {
+    return;
+  }
+  btnFunc();
+});
