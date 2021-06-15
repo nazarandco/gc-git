@@ -56,8 +56,11 @@ function onUpdateTask(event) {
   }
 
   const index = event.target.dataset.id;
-  tasks[index].done = true;
 
+  tasks[index].done = true;
+  renderTasks(tasks);
+
+  tasks[index].done = false;
   renderTasks(tasks);
 }
 
