@@ -1,4 +1,4 @@
-const addImage = (imgSrc, callback) => {
+export const addImage = (imgSrc, callback) => {
   // TODO write your code here
   const imgElem = document.createElement('img');
   imgElem.setAttribute('alt', 'Landscape photo');
@@ -7,8 +7,7 @@ const addImage = (imgSrc, callback) => {
   containerElem.append(imgElem);
 
   const imageLoadHandler = () => {
-    const { width, height } = imgElem;
-    callback(null, { width, height });
+    callback(null, imgElem);
   };
 
   imgElem.addEventListener('load', imageLoadHandler);
