@@ -1,5 +1,4 @@
-const baseUrl =
-  'https://60d49bf961160900173cbb6b.mockapi.io/api/v1/submitterss';
+const baseUrl = 'https://60d49bf961160900173cbb6b.mockapi.io/api/v1/submitters';
 
 const inputElements = document.querySelector('.login-form');
 const submitBtn = document.querySelector('.submit-button');
@@ -46,14 +45,17 @@ const onCreateUser = (e) => {
     .then((response) => {
       if (response.status === 201) {
         return response.json();
-      } else if (response.status !== 201) {
-        return (errorWrapper.innerHTML = 'Failed to create user');
       }
+
+      throw new Error();
     })
     .then((tasks) => {
       alert(JSON.stringify(tasks));
       submitBtn.disabled = true;
       inputElements.reset();
+    })
+    .catch(() => {
+      errorWrapper.innerHTML = 'Failed to create user';
     });
 };
 
