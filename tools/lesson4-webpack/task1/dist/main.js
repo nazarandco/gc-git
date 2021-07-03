@@ -1,0 +1,1 @@
+(()=>{"use strict";(async function(o){const t=await fetch("https://api.github.com/users/facebook");if(!t.ok)throw new Error("Failed to get user data");return await t.json()})().then((o=>(o=>{const{name:t,company:a}=o;console.log(`${t} from ${a}`)})({name:o.name,company:o.location})))})();
