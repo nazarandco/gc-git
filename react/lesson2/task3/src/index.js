@@ -4,7 +4,7 @@ import './styles.css';
 
 const rootElement = document.querySelector('#root');
 
-const renderSeconds = time => {
+const renderSeconds = (time) => {
   const seconds = new Date().getSeconds();
   const backgroundColor = seconds % 2 === 0 ? '#fff' : '#000';
   const textColor = seconds % 2 === 0 ? '#000' : '#fff';
