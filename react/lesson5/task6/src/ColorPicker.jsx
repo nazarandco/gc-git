@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class ColorPicker extends React.Component {
+class ColorPicker extends Component {
   constructor(props) {
     super(props);
 
