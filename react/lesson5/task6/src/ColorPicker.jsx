@@ -9,49 +9,31 @@ class ColorPicker extends React.Component {
     };
   }
 
+  colorChange(clr) {
+    this.setState({
+      color: clr,
+    });
+  }
+
   render() {
     return (
       <div>
-        <div class='picker__title'>{this.state.color}</div>
+        <div className='picker__title'>{this.state.color}</div>
         <div>
           <button
-            class='picker__button picker__button_coral'
-            onMouseOver={() =>
-              this.setState({
-                color: 'Coral',
-              })
-            }
-            onMouseOut={() =>
-              this.setState({
-                color: '',
-              })
-            }
+            className='picker__button picker__button_coral'
+            onMouseOver={() => this.colorChange('Coral')}
+            onMouseOut={() => this.colorChange('')}
           ></button>
           <button
-            class='picker__button picker__button_aqua'
-            onMouseOver={() =>
-              this.setState({
-                color: 'Aqua',
-              })
-            }
-            onMouseOut={() =>
-              this.setState({
-                color: '',
-              })
-            }
+            className='picker__button picker__button_aqua'
+            onMouseOver={() => this.colorChange('Aqua')}
+            onMouseOut={() => this.colorChange('')}
           ></button>
           <button
-            class='picker__button picker__button_bisque'
-            onMouseOver={() =>
-              this.setState({
-                color: 'Bisque',
-              })
-            }
-            onMouseOut={() =>
-              this.setState({
-                color: '',
-              })
-            }
+            className='picker__button picker__button_bisque'
+            onMouseOver={() => this.colorChange('Bisque')}
+            onMouseOut={() => this.colorChange('')}
           ></button>
         </div>
       </div>
