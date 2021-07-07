@@ -15,12 +15,6 @@ class ColorPicker extends React.Component {
     });
   }
 
-  colorChangeDef() {
-    this.setState({
-      color: '',
-    });
-  }
-
   render() {
     return (
       <div>
@@ -29,17 +23,17 @@ class ColorPicker extends React.Component {
           <button
             class='picker__button picker__button_coral'
             onMouseOver={() => this.colorChange('Coral')}
-            onMouseOut={() => this.colorChangeDef()}
+            onMouseOut={() => this.colorChange('')}
           ></button>
           <button
             class='picker__button picker__button_aqua'
             onMouseOver={() => this.colorChange('Aqua')}
-            onMouseOut={() => this.colorChangeDef()}
+            onMouseOut={() => this.colorChange('')}
           ></button>
           <button
             class='picker__button picker__button_bisque'
             onMouseOver={() => this.colorChange('Bisque')}
-            onMouseOut={() => this.colorChangeDef()}
+            onMouseOut={() => this.colorChange('')}
           ></button>
         </div>
       </div>
