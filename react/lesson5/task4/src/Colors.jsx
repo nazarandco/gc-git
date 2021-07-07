@@ -14,7 +14,7 @@ class Colors extends React.Component {
       <div className='colors'>
         <button
           style={{ backgroundColor: RED }}
-          onClick={() => (this.setBodyColor.bind(this, RED))}
+          onClick={this.setBodyColor.bind(this, RED)}
           className='colors__button'
         ></button>
         <button
