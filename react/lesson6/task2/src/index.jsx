@@ -5,4 +5,4 @@ import Mailbox from './Mailbox.jsx';
 
 const rootElement = document.querySelector('#root');
 
-ReactDOM.render(<Mailbox unreadMessage={[]}/>, rootElement);
+ReactDOM.render(<Mailbox unreadMessage={['a', 'b']}/>, rootElement);
