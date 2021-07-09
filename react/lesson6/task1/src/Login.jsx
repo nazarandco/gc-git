@@ -3,7 +3,7 @@ import Auth from './Auth.jsx';
 
 const Login = ({ onLogin }) => {
   return (
-    <button className='login btn' onClick={() => this.onLogin()}>
+    <button className='login btn' onClick={() => onLogin()}>
       Login
     </button>
   );
