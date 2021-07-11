@@ -9,7 +9,7 @@ class Status extends React.Component {
 
     this.state = {
       isOnline: true,
-      isOffline: false,
+      // isOffline: false,
     };
 
     this.onStatusOn = this.onStatusOn.bind(this);
@@ -31,7 +31,7 @@ class Status extends React.Component {
   render() {
     if (this.state.isOnline === true) {
       return <Online onStatusOff={this.onStatusOff} />;
-    } else if (this.state.isOffline === true) {
+    } else if (this.state.isOnline === false) {
       return <Offline onStatusOn={this.onStatusOn} />;
     }
   }
