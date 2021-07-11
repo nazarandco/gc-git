@@ -3,12 +3,12 @@ import Offline from './Offline.jsx';
 import Online from './Online.jsx';
 import './index.scss';
 
-const Status = ({ isOnline }) => {
-  if (isOnline === true) {
+const Status = ({ isOffline }) => {
+  if (isOffline === false) {
     return <Online />;
   } 
   
-  if (isOnline === false) {
+  if (isOffline === true) {
     return <Offline />;
   }
 };
