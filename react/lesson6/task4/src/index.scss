@@ -1,35 +1,40 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #root {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .status {
-    border: 2px solid #000;
-    height: 32px;
-    border-radius: 16px;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  height: 32px;
+  border-radius: 16px;
+  overflow: hidden;
 
-    &__btn {
-        height: 100%;
-        border: none;
-        background-color: #000;
-        color: #fff;
-        cursor: pointer;
-        padding: 0 8px;
-    }
+  &__btn {
+    height: 100%;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 8px;
+    font-size: 1em;
+  }
 
-    &__text {
-        padding: 0 8px;
-        line-height: 28px;
-    }
+  &__text {
+    padding: 0 8px;
+    font-size: 1em;
+    // line-height: 28px;
+  }
 }
