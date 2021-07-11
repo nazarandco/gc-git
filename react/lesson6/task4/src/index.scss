@@ -21,7 +21,6 @@ body {
   height: 32px;
   border-radius: 16px;
   overflow: hidden;
-  cursor: pointer;
 
   &__btn {
     height: 100%;
@@ -30,11 +29,13 @@ body {
     color: #fff;
     padding: 0 8px;
     font-size: 1em;
+    cursor: pointer;
   }
 
   &__text {
     padding: 0 8px;
     font-size: 1em;
+    cursor: pointer;
     // line-height: 28px;
   }
 }
