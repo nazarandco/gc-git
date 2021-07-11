@@ -28,15 +28,11 @@ class Status extends React.Component {
   }
 
   render() {
-    return (
-      <div className='status'>
-        {this.state.isOnline === true ? (
-          <Online onStatusOff={this.onStatusOff} />
-        ) : (
-          <Offline onStatusOn={this.onStatusOn} />
-        )}
-      </div>
-    );
+    if (this.state.isOnline === true) {
+      return <Online onStatusOff={this.onStatusOff} />;
+    } else if (this.state.isOnline === false) {
+      return <Offline onStatusOn={this.onStatusOn} />;
+    }
   }
 }
 
