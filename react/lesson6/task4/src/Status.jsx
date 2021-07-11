@@ -6,7 +6,9 @@ import './index.scss';
 const Status = ({ isOnline }) => {
   if (isOnline === true) {
     return <Online />;
-  } else if (isOnline === false) {
+  } 
+  
+  if (isOnline === false) {
     return <Offline />;
   }
 };
