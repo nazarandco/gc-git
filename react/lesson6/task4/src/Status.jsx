@@ -10,24 +10,31 @@ class Status extends React.Component {
     this.state = {
       isOnline: true,
     };
+
+    this.onStatusOn = this.onStatusOn.bind(this);
+    this.onStatusOff = this.onStatusOff.bind(this);
   }
 
-  // onStatusOn() {
-  //   this.setState({
-  //     isOnline: true,
-  //   });
-  // }
+  onStatusOn() {
+    this.setState({
+      isOnline: true,
+    });
+  }
 
-  // onStatusOff() {
-  //   this.setState({
-  //     isOnline: false,
-  //   });
-  // }
+  onStatusOff() {
+    this.setState({
+      isOnline: false,
+    });
+  }
 
   render() {
     return (
       <div className='status'>
-        {this.state.isOnline === true ? <Online /> : <Offline />}
+        {this.state.isOnline === true ? (
+          <Online onStatusOff={this.onStatusOff} />
+        ) : (
+          <Offline onStatusOn={this.onStatusOn} />
+        )}
       </div>
     );
   }

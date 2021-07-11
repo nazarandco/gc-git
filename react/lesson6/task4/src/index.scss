@@ -21,13 +21,13 @@ body {
   height: 32px;
   border-radius: 16px;
   overflow: hidden;
+  cursor: pointer;
 
   &__btn {
     height: 100%;
     border: none;
     background-color: #000;
     color: #fff;
-    cursor: pointer;
     padding: 0 8px;
     font-size: 1em;
   }
