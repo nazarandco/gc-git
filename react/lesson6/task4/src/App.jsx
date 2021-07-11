@@ -4,6 +4,6 @@ import Offline from './Offline.jsx';
 import Online from './Online.jsx';
 import './index.scss';
 
-const App = () => <Status />;
+const App = () => <Status isOnline={false}/>;
 
 export default App;
