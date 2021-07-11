@@ -4,11 +4,11 @@ import Online from './Online.jsx';
 import './index.scss';
 
 const Status = ({ isOnline }) => {
-  if (isOnline === false) {
+  if (isOnline === true) {
     return <Online />;
   }
 
-  if (isOnline === true) {
+  if (isOnline === false) {
     return <Offline />;
   }
 };
