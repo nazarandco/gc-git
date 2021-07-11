@@ -8,7 +8,7 @@ class Status extends React.Component {
     super(props);
 
     this.state = {
-      isOnline: true,
+      isOnline: false,
     };
 
     this.onStatusOn = this.onStatusOn.bind(this);
