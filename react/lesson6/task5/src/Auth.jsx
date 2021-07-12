@@ -5,17 +5,10 @@ import Spinner from './Spinner.jsx';
 import './index.scss';
 
 class Auth extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      isLoggedIn: false,
-      isLogging: false,
-    };
-
-    this.onLogin = this.onLogin.bind(this);
-    this.onLogout = this.onLogout.bind(this);
-  }
+  state = {
+    isLoggedIn: false,
+    isLogging: false,
+  };
 
   onLogout = () => {
     this.setState({

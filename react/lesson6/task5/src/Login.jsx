@@ -1,5 +1,4 @@
 import React from 'react';
-import Spinner from './Spinner.jsx';
 import './index.scss';
 
 // input: obj
