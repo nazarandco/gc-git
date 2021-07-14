@@ -12,7 +12,7 @@ class Life extends React.Component {
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    console.log(nextProps, nextState);
+    // console.log(nextProps, nextState);
     console.log(
       'shouldComponentUpdate(nextProps, nextState): decide to render or not to render'
     );
@@ -20,7 +20,7 @@ class Life extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log(prevProps);
+    // console.log(prevProps);
     console.log(
       'componentDidUpdate(prevProps, prevState): some updates based on new props'
     );
