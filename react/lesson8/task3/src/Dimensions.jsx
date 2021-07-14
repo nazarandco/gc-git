@@ -22,7 +22,7 @@ class Dimensions extends React.Component {
       width,
       height,
     });
-    document.title = `${innerHeight} x ${innerWidth}`;
+    document.title = `${height} x ${width}`;
   };
 
   onResize = (e) => {
