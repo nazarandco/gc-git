@@ -24,6 +24,7 @@ class Clock extends Component {
 
   componentDidMount() {
     this.interval = setInterval(() => {
+      // console.log('ok');
       this.setState({
         offset: formatDate(getTimeWithOffset(this.props.offset)),
       });
