@@ -3,7 +3,7 @@ import Life from './Life.jsx';
 
 class Demo extends React.Component {
   state = {
-    number: Math.round(Math.random() * 100),
+    number: 17,
   }
 
   show = () => {
