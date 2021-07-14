@@ -9,7 +9,7 @@ class Dimensions extends React.Component {
   componentDidMount() {
     window.addEventListener('resize', this.onResize);
     const { innerWidth, innerHeight } = window;
-    document.title = `${innerHeight} x ${innerWidth}`;
+    document.title = `${innerWidth} x ${innerHeight}`;
     this.setDimensions(innerWidth, innerHeight);
   }
 
@@ -22,7 +22,7 @@ class Dimensions extends React.Component {
       width,
       height,
     });
-    document.title = `${height} x ${width}`;
+    document.title = `${width} x ${height}`;
   };
 
   onResize = (e) => {
