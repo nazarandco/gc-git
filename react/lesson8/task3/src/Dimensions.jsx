@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Dimension extends React.Component {
+class Dimensions extends React.Component {
   state = {
     width: null,
     height: null,
@@ -32,11 +32,11 @@ class Dimension extends React.Component {
 
   render() {
     return (
-      <div class='dimensions'>
-        {`${this.state.width}px - ${this.state.height}px`}
+      <div>
+        {`${this.state.width} x ${this.state.height}`}
       </div>
     );
   }
 }
 
-export default Dimension;
+export default Dimensions;
