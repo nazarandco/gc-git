@@ -26,3 +26,11 @@ body {
   cursor: pointer;
   background-color: green;
 }
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin-top: 8px;
+}

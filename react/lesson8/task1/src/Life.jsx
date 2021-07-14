@@ -9,6 +9,8 @@ class Life extends React.Component {
 
   componentDidMount() {
     console.log('componentDidMount: API calls, subscriptions');
+
+
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -30,6 +32,9 @@ class Life extends React.Component {
     console.log(
       'componentWillUnmount(): cleanup before DOM related to component will be removed'
     );
+    // console.log(
+    //   'componentDidUpdate(prevProps, prevState): some updates based on new props'
+    // );
   }
 
   render() {
