@@ -13,13 +13,18 @@ class ConnectionStatus extends React.Component {
   onOnline = () => {
     this.setState({
       status: 'online',
-    })
-  }
+    });
+  };
 
   onOffline = () => {
     this.setState({
       status: 'offline',
-    })
+    });
+  };
+
+  componentWillUnmount() {
+    window.addEventListener('online', this.onOnline);
+    window.addEventListener('offline', this.onOffline);
   }
 
   render() {
