@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductList = ({ cartItems }) => {
+const ProductsList = ({ cartItems }) => {
   const total = cartItems.reduce((acc, item) => acc + item.price, 0);
 
   return (
@@ -18,4 +18,4 @@ const ProductList = ({ cartItems }) => {
   );
 };
 
-export default ProductList;
+export default ProductsList;
