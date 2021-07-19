@@ -10,7 +10,7 @@ const Expand = ({ children, title, condition, showExpand, hideExpand }) => (
       <button
         className={
           condition === true
-            ? 'expand__toggle-btn button-clicked'
+            ? 'expand__toggle-btn expand__toggle-btn-off'
             : 'expand__toggle-btn'
         }
         onClick={condition === true ? hideExpand : showExpand}
