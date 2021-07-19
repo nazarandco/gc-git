@@ -23,7 +23,7 @@ class App extends React.Component {
       <div className='app'>
         <Expand
           condition={this.state.isOpen}
-          title='Expand window'
+          title='Some title'
           showExpand={this.showExpand}
           hideExpand={this.hideExpand}
         >
