@@ -47,10 +47,5 @@ body {
 }
 
 .button-clicked {
-  margin-left: auto;
-  border: none;
-  background-color: transparent;
-  outline: none;
-  cursor: pointer;
   transform: rotate(180deg);
 }

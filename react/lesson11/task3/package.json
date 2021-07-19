@@ -17,8 +17,6 @@
     "@babel/plugin-transform-react-jsx": "^7.14.5",
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-react": "^7.14.5",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "css-loader": "^5.2.6",
@@ -35,12 +33,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
     "@ngx-share/core": "^7.1.4",
     "core-js": "^3.15.2",
     "font-awesome": "^4.7.0",
