@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+    //     <FontAwesomeIcon icon={faChevronUp} />
 
 const Expand = ({ children, title, condition, showExpand, hideExpand }) => (
   <div className='expand border'>
@@ -11,7 +12,7 @@ const Expand = ({ children, title, condition, showExpand, hideExpand }) => (
         className={condition === true ? 'button-clicked' : 'expand__toggle-btn'}
         onClick={condition === true ? hideExpand : showExpand}
       >
-        <FontAwesomeIcon icon={faChevronUp} />
+        <i className='fas fa-chevron-down'></i>
       </button>
     </div>
     <div className='expand__content'>
