@@ -22,7 +22,7 @@ const Task = ({ id, done, text, onChange, onDelete }) => {
 
 Task.propTypes = {
   id: PropTypes.number,
-  done: PropTypes.bool.isRequired,
+  done: PropTypes.bool,
   text: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   onDelete: PropTypes.func.isRequired,
@@ -30,6 +30,7 @@ Task.propTypes = {
 
 Task.defaultProps = {
   id: Math.random(),
+  done: false,
 }; 
 
 export default Task;
