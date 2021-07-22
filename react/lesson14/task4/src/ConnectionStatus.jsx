@@ -1,21 +1,24 @@
-import React from 'react';
 import React, { useEffect, useState } from 'react';
 
 const ConnectionStatus = () => {
   const [status, setStatus] = useState('online');
 
   useEffect(() => {
-    const handleStatus = (currentStatus) => {
-      setStatus(currentStatus);
+    const handleOnline = () => {
+      setStatus('online');
     };
-    window.addEventListener('online', handleStatus('online'));
-    window.addEventListener('offline', handleStatus('offline'));
+    const handleOffline = () => {
+      setStatus('offline');
+    };
+
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
 
     return () => {
-      window.removeEventListener('online', handleStatus('online'));
-      window.removeEventListener('offline', handleStatus('offline'));
+      window.removeEventListener('online', handleOnline('online'));
+      window.removeEventListener('offline', handleOffline('offline'));
     };
-  });
+  }, []);
 
   return status === 'online' ? (
     <div className='status'>{status}</div>
@@ -23,6 +26,5 @@ const ConnectionStatus = () => {
     <div className='status status_offline'>{status}</div>
   );
 };
-
 
 export default ConnectionStatus;
