@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header.jsx';
-// import { UserDataContext } from './userData';
+import { UserDataContext } from './userData';
 
 class App extends React.Component {
   state = {
