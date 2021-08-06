@@ -4,7 +4,7 @@ import UserMenu from './UserMenu.jsx';
 class Header extends React.Component {
   render() {
     return (
-      <header class='header'>
+      <header className='header'>
         <UserMenu />
       </header>
     );

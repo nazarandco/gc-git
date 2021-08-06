@@ -4,12 +4,13 @@ import { UserDataContext } from './userDataContext';
 class UserMenu extends React.Component {
   render() {
     return (
-      <div class='menu'>
-        <span class='menu__greeting'>{`Hello, ${this.context.name}`}</span>
+      <div className='menu'>
+        <span className='menu__greeting'>{`Hello, ${this.context.name}`}
+        </span>
         <img
           alt='User Avatar'
-          src={this.context.avatarUrl}
-          class='menu__avatar'
+          src={this.context.avatar_url}
+          className='menu__avatar'
         />
       </div>
     );
