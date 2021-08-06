@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './Header.jsx';
-import { userData, UserDataContext } from './userData';
+// import { UserDataContext } from './userData';
 
 class App extends React.Component {
   state = {
     userData: {
-      name: userData.name,
-      avatar_url: userData.avatar_url,
+      name: 'Nikola Tesla',
+      avatar_url: 'https://avatars3.githubusercontent.com/u10001',
     },
   };
 
@@ -21,6 +21,6 @@ class App extends React.Component {
   }
 }
 
-App.contextType = UserDataContext;
+// App.contextType = UserDataContext;
 
 export default App;
