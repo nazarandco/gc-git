@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header.jsx';
-import { UserDataContext } from './userData';
+import { UserDataContext } from './userDataContext';
 
 class App extends React.Component {
   state = {
@@ -20,7 +20,5 @@ class App extends React.Component {
     );
   }
 }
-
-// App.contextType = UserDataContext;
 
 export default App;
