@@ -1,4 +1,5 @@
-import { ADD, DELETE } from './users.reducer';
+export const ADD = 'USERS/ADD';
+export const DELETE = 'USERS/DELETE';
 
 export const addUser = (user) => {
   return {
