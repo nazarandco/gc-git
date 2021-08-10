@@ -3,7 +3,7 @@ import { initialState } from './store';
 export const ADD = 'USERS.REDUCER/ADD';
 export const DELETE = 'USERS.REDUCER/DELETE';
 
-export const userReducer = (state = initialState, action) => {
+export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD:
       return {
