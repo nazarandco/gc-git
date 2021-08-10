@@ -1,9 +1,9 @@
 import { initialState } from './store';
 
-export const ADD = 'USERS.REDUCER/ADD';
-export const DELETE = 'USERS.REDUCER/DELETE';
+export const ADD = 'USERS/ADD';
+export const DELETE = 'USERS/DELETE';
 
-const reducer = (state = initialState, action) => {
+const usersReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD:
       return {
@@ -20,4 +20,4 @@ const reducer = (state = initialState, action) => {
   }
 };
 
-export default reducer;
+export default usersReducer;
