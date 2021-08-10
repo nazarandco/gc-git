@@ -1,9 +1,4 @@
-import { addUser, deleteUser } from './users.actions';
-import { addFunc } from '.';
-
-const initialState = {
-  usersList: [],
-};
+import { initialState } from './store';
 
 export const ADD = 'USERS.REDUCER/ADD';
 export const DELETE = 'USERS.REDUCER/DELETE';
