@@ -5,4 +5,6 @@ export const initialState = {
   usersList: [],
 };
 
-export const store = createStore(reducer);
+const store = createStore(reducer);
+
+export default store;

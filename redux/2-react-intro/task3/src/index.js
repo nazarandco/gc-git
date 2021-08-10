@@ -1,4 +1,4 @@
-import { store } from './store';
+import store from './store';
 import { addUser, deleteUser } from './users.actions';
 
 const firstUser = addUser({ id: 76, name: 'Sarah' });
