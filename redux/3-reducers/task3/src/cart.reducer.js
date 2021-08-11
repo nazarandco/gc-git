@@ -1,28 +1,46 @@
 import { ADD, REMOVE } from './cart.actions';
+import { initialState } from './store';
 
-const initialState = {
-  products: [],
-};
+// const initialState = {
+//   products: [],
+// };
 
-const cartReducer = (state = { cart: initialState }, action) => {
+const cartReducer = (state = { ...initialState }, action) => {
   switch (action.type) {
     case ADD:
       return {
-        cart: {
-          products: state.cart.products.concat(action.payload),
-        },
+        products: state.products.concat(action.payload),
       };
     case REMOVE:
       return {
-        cart: {
-          products: state.cart.products.filter(
-            (product) => product.id !== action.payload
-          ),
-        },
+        products: state.products.filter(
+          (product) => product.id !== action.payload
+        ),
       };
     default:
       return state;
   }
 };
+
+// const cartReducer = (state = initialState.products, action) => {
+//   switch (action.type) {
+//     case ADD:
+//       return {
+//         cart: {
+//           products: state.products.concat(action.payload),
+//         },
+//       };
+//     case REMOVE:
+//       return {
+//         cart: {
+//           products: state.products.filter(
+//             (product) => product.id !== action.payload
+//           ),
+//         },
+//       };
+//     default:
+//       return state;
+//   }
+// };
 
 export default cartReducer;

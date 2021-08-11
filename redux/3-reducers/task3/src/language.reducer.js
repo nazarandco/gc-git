@@ -1,6 +1,7 @@
 import { SET } from './language.actions';
+import { initialState } from './store';
 
-const languageReducer = (state = { language: null }, action) => {
+const languageReducer = (state = initialState.language, action) => {
   switch (action.type) {
     case SET:
       return {
