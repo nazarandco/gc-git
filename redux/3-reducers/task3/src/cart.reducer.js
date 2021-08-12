@@ -5,7 +5,7 @@ import { initialState } from './store';
 //   products: [],
 // };
 
-const cartReducer = (state = { ...initialState }, action) => {
+const cartReducer = (state = initialState.cart, action) => {
   switch (action.type) {
     case ADD:
       return {

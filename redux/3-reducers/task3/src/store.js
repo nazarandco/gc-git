@@ -6,7 +6,9 @@ import userReducer from './user.reducer';
 export const initialState = {
   language: 'en',
   user: null,
-  products: [],
+  cart: {
+    products: [],
+  },
 };
 
 const appReducer = combineReducers({
