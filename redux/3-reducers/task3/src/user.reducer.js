@@ -1,10 +1,9 @@
 import { ADD, REMOVE } from './user.actions';
-import { initialState } from './store';
 
-const userReducer = (state = [initialState.user], action) => {
+const userReducer = (state = null, action) => {
   switch (action.type) {
     case ADD:
-      return state.concat(action.payload);
+      return { ...state, ...action.payload };
     case REMOVE:
       return {
         state: [],
