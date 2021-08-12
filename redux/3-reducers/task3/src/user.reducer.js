@@ -5,9 +5,7 @@ const userReducer = (state = null, action) => {
     case ADD:
       return { ...state, ...action.payload };
     case REMOVE:
-      return {
-        state: [],
-      };
+      return {};
     default:
       return state;
   }
