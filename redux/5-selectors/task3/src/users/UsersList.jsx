@@ -7,7 +7,6 @@ import { updateFilter } from './users.actions';
 import {
   filterTextSelector,
   filteredUsersListSelector,
-  usersListSelector,
 } from './users.selectors';
 
 const UsersList = ({ users, filterText, updateFilterText }) => {
@@ -19,7 +18,11 @@ const UsersList = ({ users, filterText, updateFilterText }) => {
 
   return (
     <div>
-      <Filter onChange={onChange} filterText={input} count={users.length} />
+      <Filter
+        onChange={onChange}
+        filterText={input}
+        count={filterText === '' ? '' : users.length}
+      />
       <ul className='users'>
         {users.map((user) => (
           <User name={user.name} age={user.age} />

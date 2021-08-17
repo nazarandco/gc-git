@@ -1,8 +1,4 @@
 import { UPDATE_FILTER } from './users.actions';
-import {
-  filteredUsersListSelector,
-  usersListSelector,
-} from './users.selectors';
 
 const users = [
   {
