@@ -7,6 +7,5 @@ export const usersListSelector = (state) => state.users.usersList;
 export const filteredUsersListSelector = createSelector(
   [filterTextSelector, usersListSelector],
   (filterText, usersList) =>
-    usersList.filter((user) => user.name.includes(filterText))
+    usersList.filter((user) => user.name.toUpperCase().includes(filterText))
 );
-

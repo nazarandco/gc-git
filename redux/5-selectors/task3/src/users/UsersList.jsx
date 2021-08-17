@@ -13,7 +13,7 @@ const UsersList = ({ users, filterText, updateFilterText }) => {
   const [input, setInput] = useState(filterText);
   const onChange = (e) => {
     setInput(e.target.value);
-    updateFilterText(e.target.value);
+    updateFilterText(e.target.value.toUpperCase());
   };
 
   return (
@@ -25,7 +25,7 @@ const UsersList = ({ users, filterText, updateFilterText }) => {
       />
       <ul className='users'>
         {users.map((user) => (
-          <User name={user.name} age={user.age} />
+          <User key={user.id} name={user.name} age={user.age} />
         ))}
       </ul>
     </div>
