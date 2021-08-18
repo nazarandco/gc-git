@@ -18,14 +18,14 @@ class SearchField extends React.Component {
 
   render() {
     return (
-      <div class='name-form'>
+      <div className='name-form'>
         <input
           type='text'
-          class='name-form__input'
+          className='name-form__input'
           value={this.state.userName}
           onChange={this.onChange}
         />
-        <button class='name-form__btn btn' onClick={this.handleUserSearch}>
+        <button className='name-form__btn btn' onClick={this.handleUserSearch}>
           Show
         </button>
       </div>
