@@ -1,6 +1,7 @@
 import React from 'react';
 
 const UserMenu = ({ userData }) => {
+
   if (!userData) {
     return null;
   }
